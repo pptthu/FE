@@ -1,0 +1,36 @@
+.signin-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+}
+.signin-box {
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.signin-image-panel {
+    flex: 1;
+    /* Tên ảnh phải khớp với file trong thư mục public */
+    background-image: url('/SignIn.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+.signin-form-panel {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.signup-link {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+}
